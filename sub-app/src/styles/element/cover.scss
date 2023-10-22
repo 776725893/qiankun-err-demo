@@ -1,0 +1,76 @@
+/*
+覆盖elementPlus的部分默认样式
+*/
+body {
+  // 卡片
+  .el-card {
+    box-sizing: border-box;
+    border-radius: 10px;
+    & + .el-card {
+      margin-top: 20px;
+    }
+  }
+
+  // 弹窗
+  .el-dialog {
+    border-radius: 10px;
+    .el-dialog__header {
+      border-bottom: 1px solid #e5e5e5;
+      height: 44px;
+      line-height: 44px;
+      padding: 0 10px 0 20px;
+      color: #333;
+      background: #f2f2f2;
+      border-radius: 6px 6px 0 0;
+      margin-right: 0;
+    }
+
+    .el-dialog__headerbtn {
+      top: 0px;
+    }
+
+    .el-dialog__body {
+      border-bottom: 1px solid #eee;
+    }
+  }
+
+  // 表格
+  .el-table {
+    th.el-table__cell {
+      background-color: #f3f3f3;
+    }
+  }
+
+  // 菜单
+  .el-menu {
+    .el-menu.el-menu--inline {
+      background: #f0f0f5;
+      font-size: 12px;
+      .el-menu-item {
+        // font-size: 12px;
+        height: 40px;
+        line-height: 40px;
+      }
+    }
+  }
+
+  // 文字提示
+  .el-popper[role="tooltip"] {
+    max-width: 40%;
+  }
+
+  // 标签页
+  .el-tabs {
+    .el-tabs__item {
+      height: 60px;
+    }
+    .el-tabs__header {
+      margin: 0;
+    }
+  }
+
+  // 
+  .el-badge__content.is-fixed {
+    right: calc(-10px + var(--el-badge-size) / 2);
+  }
+}

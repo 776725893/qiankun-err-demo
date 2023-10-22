@@ -1,0 +1,55 @@
+/*
+覆盖elementPlus的部分默认样式
+*/
+body {
+  // 卡片
+  .jtlj-card {
+    box-sizing: border-box;
+    border-radius: 10px;
+    & + .jtlj-card {
+      margin-top: 20px;
+    }
+  }
+
+  // 弹窗
+  .jtlj-dialog {
+    border-radius: 10px;
+    .jtlj-dialog__header {
+      border-bottom: 1px solid #e5e5e5;
+      height: 44px;
+      line-height: 44px;
+      padding: 0 10px 0 20px;
+      color: #333;
+      background: #f2f2f2;
+      border-radius: 6px 6px 0 0;
+      margin-right: 0;
+    }
+
+    .jtlj-dialog__headerbtn {
+      top: 0px;
+    }
+
+    .jtlj-dialog__body {
+      border-bottom: 1px solid #eee;
+    }
+  }
+
+  // 表格
+  .jtlj-table {
+    th.jtlj-table__cell {
+      background-color: #f3f3f3;
+    }
+  }
+
+  // 菜单
+  .jtlj-menu {
+    .jtlj-menu.jtlj-menu--inline {
+      background: #f0f0f5;
+    }
+  }
+
+  // 文字提示
+  .jtlj-popper[role="tooltip"] {
+    max-width: 40%;
+  }
+}

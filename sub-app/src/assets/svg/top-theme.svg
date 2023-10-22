@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 24.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="图层_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 74 31" style="enable-background:new 0 0 74 31;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill-rule:evenodd;clip-rule:evenodd;fill:currentColor}
+	.st1{fill:#FFFFFF;}
+	.st2{font-family:'PingFang-SC-Regular';}
+	.st3{font-size:14px;}
+</style>
+<path class="st0" d="M15.5,0h43C67.1,0,74,6.9,74,15.5S67.1,31,58.5,31h-43C6.9,31,0,24.1,0,15.5S6.9,0,15.5,0z"/>
+<g>
+	<defs>
+		<path id="SVGID_1_" d="M15.1,4c6.4,0,11.5,5.1,11.5,11.5c0,6.4-5.1,11.5-11.5,11.5S3.6,21.8,3.6,15.5C3.6,9.1,8.8,4,15.1,4z"/>
+	</defs>
+	<clipPath id="SVGID_2_">
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;"/>
+	</clipPath>
+	<g style="clip-path:url(#SVGID_2_);">
+		
+			<image style="overflow:visible;" width="44" height="43"  transform="matrix(0.8325 0 0 0.8325 -3.0947 -2.0679)">
+		</image>
+	</g>
+	
+		<use xlink:href="#SVGID_1_"  style="overflow:visible;fill-rule:evenodd;clip-rule:evenodd;fill:none;stroke:#FFFFFF;stroke-miterlimit:10;"/>
+</g>
+<text transform="matrix(1 0 0 1 31.5156 19.7716)" class="st1 st2 st3">主题</text>
+</svg>

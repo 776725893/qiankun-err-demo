@@ -1,0 +1,56 @@
+@mixin fx {
+  display: flex;
+  align-items: center;
+}
+
+@mixin fx-bt {
+  @include fx;
+  justify-content: space-between;
+}
+
+@mixin fx-center {
+  @include fx;
+  justify-content: center;
+}
+
+@mixin fx-col {
+  @include fx;
+  flex-direction: column;
+}
+
+@mixin fx-col-bt {
+  @include fx;
+  justify-content: space-between;
+}
+
+@mixin fx-col-center {
+  @include fx;
+  justify-content: center;
+}
+
+@mixin scrollStyle {
+  //  滚动条样式
+  &::-webkit-scrollbar {
+    height: 9px;
+    width: 9px;
+  }
+
+  &::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    border-style: dashed;
+    background-color: rgba(157, 165, 183, 0.4);
+    border-color: transparent;
+    border-width: 2px;
+    background-clip: padding-box;
+  }
+
+  &::-webkit-scrollbar-thumb:hover {
+    background: rgba(157, 165, 183, 0.4);
+  }
+}
+
+@mixin textOver {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,29 @@
+@use "./element/cover.scss";
+
+@font-face {
+  font-family: "DINPro-Medium";
+  src: url("./fonts/DINPro-Medium.ttf") format("truetype");
+}
+
+// 覆盖父应用的padding样式
+.micro-tab-container + .jtlj-main.content-container {
+  padding: 0;
+}
+
+// 卡片样式
+.base-card {
+  width: 100%;
+  border-radius: 10px;
+  padding: 20px;
+  background: #fff;
+  box-sizing: border-box;
+}
+
+.base-card + .base-card {
+  margin-top: 20px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+}
